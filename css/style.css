@@ -88,6 +88,9 @@ p {
   #index-banner .section {
     top: 0;
   }
+  .parallax-container {
+    min-height: 725px;
+  }
 }
 
 .icon-block {
