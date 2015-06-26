@@ -1,0 +1,102 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ 
+@font-face {
+  font-family: 'Learning Curve'; /*a name to be used later*/
+  src: url('../font/LearningCurve.ttf'); /*URL to font*/
+}
+
+@font-face {
+  font-family: 'Matchbook'; /*a name to be used later*/
+  src: url('../font/Matchbook.ttf'); /*URL to font*/
+}
+
+.temple {
+  fill: white;
+  width: 50px;
+  height: auto;
+}
+
+iframe {
+  min-height: 100%;
+}
+
+.icon-block a {
+  color: #ffff8d;
+}
+
+.w-yellow {
+  color: #F9F084;
+}
+
+.img-section {
+  min-height: 700px;
+}
+
+.matchbook {
+  font-family: 'Matchbook';
+}
+
+.matchbook.big {
+  font-size: 48px;
+}
+
+h1 {
+  font-family: "Learning Curve";
+  font-size: 6em;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 0%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
