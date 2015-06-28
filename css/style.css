@@ -46,6 +46,10 @@ iframe {
   font-size: 48px;
 }
 
+.matchbook.xl {
+  font-size: 56px;
+}
+
 h1 {
   font-family: "Learning Curve";
   font-size: 6em;
